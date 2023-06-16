@@ -1,8 +1,8 @@
 import React from "react";
 
-function Header() {
+function CartShop() {
   return(
-    <header className="header" style={{backgroundColor: 'red'}} >
+    <header className="CartShop" style={{backgroundColor: 'red'}} >
       <div className="containner">
         <form action="">
           <input 
@@ -20,10 +20,10 @@ function Header() {
 
 
 
-    </header>
+   test </header>
   );
 }
 
 
 
-export default Header;
+export default CartShop;
