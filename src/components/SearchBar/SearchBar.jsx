@@ -1,4 +1,5 @@
 import React from 'react';
+import{BsSearch} from 'react-icons/bs' ;
 
 function SearchBar() {
   return ( 
@@ -11,7 +12,7 @@ function SearchBar() {
     />
 
     <button  type="submit" className="search__button">
-      icon
+      <BsSearch />
     </button>
   </form>
    );
