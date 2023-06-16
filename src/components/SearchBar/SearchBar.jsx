@@ -4,7 +4,7 @@ import './SearchBar.css'
 
 function SearchBar() {
   
-  const [] = useState();
+  const [searchValue,setSearchValue] = useState('');
 
   return ( 
     <form action="" className='search-bar'>
