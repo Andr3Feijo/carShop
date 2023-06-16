@@ -1,9 +1,10 @@
 import React from 'react';
 import{BsSearch} from 'react-icons/bs' ;
+import './SearchBar.css'
 
 function SearchBar() {
   return ( 
-    <form action="">
+    <form action="" className='search-bar'>
     <input 
     type="search" 
     placeholder="Buscar Produto"
