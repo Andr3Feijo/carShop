@@ -10,7 +10,7 @@ function SearchBar() {
     <form action="" className='search-bar'>
     <input 
     type="search" 
-    value={searchValue}
+    value={ searchValue }
     placeholder="Buscar Produto"
     className="search__input"
     onChange={ ({ target }) => setSearchValue (target.value) }
