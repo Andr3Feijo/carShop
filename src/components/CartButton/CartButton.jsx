@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { BsFillBagHeartFill } from 'react-icons/bs';
+import { LuShoppingCart } from 'react-icons/lu';
 
 import './cartButton.css';
 
 function CartButton() {
   return (  
     <button type='button' className='cart__button' >
-      <BsFillBagHeartFill />
+      <LuShoppingCart/>
       <span className='bag-status'>1</span>
     </button>
   );
