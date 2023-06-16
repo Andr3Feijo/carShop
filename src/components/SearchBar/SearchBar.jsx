@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import{BsSearch} from 'react-icons/bs' ;
-import './SearchBar.css'
+import{ BsSearch } from 'react-icons/bs' ;
+import './SearchBar.css';
 
 function SearchBar() {
   
@@ -13,7 +13,7 @@ function SearchBar() {
     value={searchValue}
     placeholder="Buscar Produto"
     className="search__input"
-    onChange={({target}) => setSearchValue (target.value)}
+    onChange={ ({ target }) => setSearchValue (target.value) }
     required
     />
     { searchValue }  
