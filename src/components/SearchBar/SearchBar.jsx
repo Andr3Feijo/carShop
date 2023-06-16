@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import{BsSearch} from 'react-icons/bs' ;
 import './SearchBar.css'
 
 function SearchBar() {
+  
+  const [] = useState();
+
   return ( 
     <form action="" className='search-bar'>
     <input 
