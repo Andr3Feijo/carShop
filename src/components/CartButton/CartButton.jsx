@@ -8,7 +8,7 @@ function CartButton() {
   return (  
     <button type='button' className='cart__button' >
       <BsFillBagHeartFill />
-      <span className='bag-status'></span>
+      <span className='bag-status'>1</span>
     </button>
   );
 }
