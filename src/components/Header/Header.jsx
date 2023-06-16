@@ -11,6 +11,10 @@ function Header() {
           className="search__input"
           required
           />
+
+          <button  type="submit" className="search__button">
+            icon
+          </button>
         </form>
       </div>
 
