@@ -12,9 +12,10 @@ function SearchBar() {
     type="search" 
     placeholder="Buscar Produto"
     className="search__input"
+    onChange={({target}) => setSearchValue (target.value)}
     required
     />
-
+    { searchValue }  
     <button  type="submit" className="search__button">
       <BsSearch />
     </button>
