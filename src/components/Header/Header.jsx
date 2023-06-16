@@ -3,7 +3,7 @@ import React from "react";
 function CartShop() {
   return(
     <header className="CartShop" style={{backgroundColor: 'red'}} >
-      <div className="containner">
+      <div className="containner" style={{maxWidth: '800px', margin: '0 auto'}} >
         <form action="">
           <input 
           type="search" 
